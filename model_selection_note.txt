@@ -1,0 +1,12 @@
+Final Model Selection: Tuned Lasso Regression
+
+Tuned Lasso was retained as the deployed model because it achieved
+the lowest RMSE (47.692) and highest R-squared (0.373) among the
+models in the recorded comparison.
+
+Tuned Ridge achieved the lowest MAE (18.870), compared with Lasso's
+MAE of 20.166. Therefore, Lasso is not the best model on every metric.
+
+The final choice reflects the preference for RMSE and R-squared in
+this comparison. Its test-set performance is modest, so further
+validation and improvement are recommended before real-world use.
